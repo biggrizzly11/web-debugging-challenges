@@ -1,0 +1,6 @@
+1. Missing } on line 9 of productsCtrl.js
+2. In the app.js file added a comma and deleted the closing ) after each state. Also moved the closing }): to the end of the document.
+3. Index.html added = to ng-app="miniRouting" and closing > on one of the scripts
+4. Injected productsService into productsCtrl
+5. On the app.js page changed ui-router to ui.router
+6. Fixed the scripts on the index.html page.

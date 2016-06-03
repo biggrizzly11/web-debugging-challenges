@@ -1,0 +1,3 @@
+1. Change the module.exports to mongoose.model('birds', birdSchema);
+2. Changed to read on line 20 of server.js.
+3. Added confirmed and numberSeen to Schema

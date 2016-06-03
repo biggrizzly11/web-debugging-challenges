@@ -1,4 +1,4 @@
-angular.module('miniRouting').controller("productsCtrl", function($scope, $stateParams){
+angular.module('miniRouting').controller("productsCtrl", function($scope, $stateParams, productService){
     var productType = $stateParams.id;
     
     if(productType === "shoes"){
@@ -6,4 +6,4 @@ angular.module('miniRouting').controller("productsCtrl", function($scope, $state
     } else {
         $scope.productData = productService.sockData;
     }
-);
+});
